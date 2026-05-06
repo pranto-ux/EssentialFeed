@@ -24,6 +24,6 @@ jobs:
           xcodebuild test \
             -project EssentialFeed.xcodeproj \
             -scheme "EssentialFeed" \
-            -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.3.1' \
+            -destination 'platform=iOS Simulator,name=iPhone 16' \
             -resultBundlePath TestResults \
             CODE_SIGNING_ALLOWED=NO
